@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 22
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "com.dise.emmanuelabiola.rhythm"
         minSdkVersion 14
-        targetSdkVersion 21
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -22,9 +22,11 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:appcompat-v7:22.0.3'
+    compile 'com.android.support:design:22.2.0'
     compile 'com.getpebble:pebblekit:3.0.0'
     compile "com.androidplot:androidplot-core:0.6.1"
+    compile 'com.wrapp.floatlabelededittext:library:0.0.6'
 }
 
 repositories {

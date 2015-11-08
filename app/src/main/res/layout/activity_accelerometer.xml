@@ -9,49 +9,14 @@
 
     <com.androidplot.xy.XYPlot
         android:id="@+id/dynamicPlot"
-        android:layout_width="330dp"
+        android:layout_width="377dp"
         android:layout_height="348dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
         title="@string/dynamic_plot"
-        android:layout_gravity="center_horizontal" />
-
-    <TextView
-        android:id="@+id/x_axis_Text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="none"
-        android:paddingLeft="50dp"
-        android:textColor="#0000FF"
-        android:background="#000000"
-        android:text="X:"
-        android:textSize="@android:dimen/app_icon_size" />
-
-    <TextView
-        android:id="@+id/y_axis_Text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="none"
-        android:paddingLeft="50dp"
-        android:textColor="#008800"
-        android:background="#000000"
-        android:text="Y:"
-        android:textSize="@android:dimen/app_icon_size" />
-
-    <TextView
-        android:id="@+id/z_axis_Text"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:ems="10"
-        android:inputType="none"
-        android:paddingLeft="50dp"
-        android:textColor="#FF0000"
-        android:background="#020202"
-        android:text="Z:"
-        android:textSize="@android:dimen/app_icon_size" />
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.90" />
 
 </LinearLayout>

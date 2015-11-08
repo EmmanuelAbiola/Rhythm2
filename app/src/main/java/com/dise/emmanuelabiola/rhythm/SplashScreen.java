@@ -32,7 +32,7 @@ public class SplashScreen extends Activity {
                 finally{
                     //We need to define which activity to open after displaying Splash screen.
                     // This is done using the Intent(Context, Class) constructor of the Intent class.
-                    Intent intent = new Intent(SplashScreen.this,MainActivity.class);
+                    Intent intent = new Intent(SplashScreen.this, MainActivity.class);
                     //to start the thread
                     startActivity(intent);
                 }

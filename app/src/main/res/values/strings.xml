@@ -11,4 +11,6 @@
     <string name="info">Information</string>
     <string name="splashscreen">splashscreen</string>
     <string name="adhd_game">ADHD GAME</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
 </resources>
